@@ -1,52 +1,53 @@
-<!DOCTYPE html>
+The <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Confirmation</title>
-  <!-- Auto-redirect after 5 seconds -->
-  <meta http-equiv="refresh" content="5;url=https://www.coinsarchive.net/register">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmation - CoinsArchive</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Arial, sans-serif;
       text-align: center;
-      padding: 60px 20px;
-      background: linear-gradient(135deg, #fdfbfb, #ebedee);
-      color: #333;
+      padding: 40px;
+      background: #f8f9fa;
     }
-    h2 {
-      font-size: 28px;
-      margin-bottom: 15px;
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 180px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #333;
+      font-size: 22px;
+      margin-bottom: 10px;
     }
     p {
-      font-size: 18px;
-      margin: 10px 0;
+      color: #555;
+      font-size: 16px;
     }
-    .button {
-      display: inline-block;
-      padding: 14px 28px;
-      font-size: 18px;
-      color: #fff;
-      background-color: #007bff;
-      border-radius: 6px;
-      text-decoration: none;
-      margin-top: 25px;
-      transition: background-color 0.3s ease;
-    }
-    .button:hover {
-      background-color: #0056b3;
-    }
-    @media (max-width: 600px) {
-      h2 { font-size: 24px; }
-      p { font-size: 16px; }
-      .button { font-size: 16px; padding: 12px 24px; }
+    .loading {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #888;
     }
   </style>
+  <!-- Auto redirect in 5s -->
+  <meta http-equiv="refresh" content="5;url=https://coinsarchive.com/register?lang=fr">
 </head>
 <body>
-  <h2>Merci ! Votre action est confirmée.</h2>
-  <p>Vous allez être redirigé vers CoinsArchive dans 5 secondes.</p>
-  <p>Si la redirection automatique ne fonctionne pas, cliquez sur le bouton ci-dessous :</p>
-
-  <a href="https://www.coinsarchive.net/register" class="button">Accéder à CoinsArchive</a>
+  <div class="container">
+    <img src="https://globaldigitalinvestment.net/favicon.ico" alt="Logo">
+    <h1>Confirmation réussie</h1>
+    <p>Merci, votre demande a été vérifiée avec succès.</p>
+    <p>Vous serez redirigé automatiquement vers la page d'inscription.</p>
+    <div class="loading">Redirection dans 5 secondes...</div>
+  </div>
 </body>
 </html>
